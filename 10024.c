@@ -4,7 +4,7 @@ int main(){
 	int n;
 	int* np;
 	int sum=0; 
-	scanf("%d",&n);
+	scanf("%d", &n);
 	np = malloc(sizeof(int)*n);
 	for(int i=0; i<n; i++){
 		scanf("%d",np+i);
